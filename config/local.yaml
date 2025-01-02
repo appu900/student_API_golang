@@ -1,6 +1,6 @@
-env:"dev"
-storage_path:"storage/storage.db"
+env: "dev"
+storage_path: "storage/storage.db"
 http_server:
-  Address:"localhost:5000"
+  address: "localhost:5000"
 
 

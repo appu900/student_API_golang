@@ -9,7 +9,7 @@ import (
 )
 
 type HttpServer struct {
-	Address string
+	Address string `yaml:"address" env:"ADDRESS" env-required:"true" env-default:"localhost:5000"`
 }
 
 type Config struct {
